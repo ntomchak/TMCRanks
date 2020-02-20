@@ -1,0 +1,6 @@
+name: TMCRanks
+main: io.github.ntomchak.TMCRanks
+version: 2.1
+commands:
+  level:
+  leveltop:
