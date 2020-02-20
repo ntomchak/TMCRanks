@@ -91,10 +91,11 @@ public class TMCRanks extends JavaPlugin {
   }
 
   private void openConnection() {
+    
     try {
       Class.forName("com.mysql.jdbc.Driver");
       sqlConnection = DriverManager
-          .getConnection("jdbc:mysql://192.99.11.41:3306/TMCRanksOld?user=root&password=lackofcows&autoReconnect=true");
+          .getConnection("jdbc:mysql://xxx.xxx.xxx.xxx:3306/xxx?user=xxx&password=xxx&autoReconnect=true");
     } catch (Exception e) {
       e.printStackTrace();
     }
